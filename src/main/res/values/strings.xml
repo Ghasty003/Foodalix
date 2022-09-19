@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Food Alix</string>
+    <string name="logo_description">Image</string>
+    <string name="restaurant_name">Foodalix</string>
+    <string name="enjoy">Enjoy your recipe food.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="sign_in_text">Sign in into your account</string>
+    <string name="sign_in_hint">Full name</string>
+    <string name="sign_in_hint2">Password</string>
+    <string name="alt">Or sign in with</string>
+    <string name="forget">Forgot password?</string>
+    <string name="alt1">Don\'t have an account?</string>
+    <string name="alt2">Register</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>

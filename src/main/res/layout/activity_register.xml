@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/register_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:background="#50ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="First Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+         />
+
+    <EditText
+        android:id="@+id/register_hint2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_hint"
+        android:background="#50ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Last Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+         />
+
+    <EditText
+        android:id="@+id/register_hint3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_hint2"
+        android:background="#50ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_hint3"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        app:cornerRadius="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/register"
+        android:backgroundTint="#E91E63"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:id="@+id/linear">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+        />
+
+        <TextView
+            android:id="@+id/sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:textStyle="italic"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpage"
+    tools:context=".MainActivity">
+
+
+   <TextView
+       android:id="@+id/food_alix"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/restaurant_name"
+       android:textColor="#FF9800"
+       android:textSize="70sp"
+       android:gravity="center"
+       android:layout_marginTop="80dp"
+   />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food_alix"
+        android:text="@string/enjoy"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+    />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/sign_in"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cornerRadius="20dp"
+        android:text="@string/register"
+        android:textSize="20sp"
+        android:backgroundTint="#E91E63"
+    />
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+    />
+
+</RelativeLayout>
